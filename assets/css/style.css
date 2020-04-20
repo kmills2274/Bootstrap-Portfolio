@@ -1,12 +1,16 @@
 
 body {
-  background: linear-gradient(to right, #4aaaa5, #93fffa);
+  background: linear-gradient(to right, #4aaaa5, #d5fffd);
 }
 
-.footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 150px;
-  clear:both;
-  padding-top:20px;
-} 
+html {
+  height: 100%; 
+ }
+
+  .footer {
+  position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  }
